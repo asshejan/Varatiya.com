@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6;  /* Light Blue Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+h2, h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="number"], select, input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"], button {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.logout a {
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.logout a:hover {
+    background-color: #45a049;
+}
+
+button {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+#propertyList div {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+#propertyList img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Background for Buyer and Seller Portals */
+#buyerPortal, #sellerPortal {
+    background-color: #e8f5e9;  /* Light green background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto;
+}
+
+#buyerPortal h2, #sellerPortal h2 {
+    color: #4CAF50;
+}
+
+#buyerResultsDashboard {
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#buyerResultsDashboard h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.property-card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.property-card img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.property-card .details {
+    flex: 1;
+}
+
+.property-card .details h3 {
+    margin: 0;
+    color: #333;
+}
+
+.property-card .details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.property-card .details .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.button-container {
+    display: flex;             /* Use flexbox for centering */
+    justify-content: center;   /* Center the button horizontally */
+    width: 100%;          /* Use flexbox for centering */           /* Make the container full viewport height */
+}
+
+#BackToHome {
+    margin-top: 5px;
+    display: inline-block;
+    background-color: #4CAF50;   
+    font-size: 16px;         
+    padding: 10px 20px;       
+    border-radius: 5px;       
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;       
+    color: white;            
+    text-decoration: none;   
+}
